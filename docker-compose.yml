@@ -30,8 +30,7 @@ services:
         "spring.mvc.view.prefix": "/",
         "spring.mvc.view.suffix": ".jsp",
         "spring.messages.basename":"validation"
-        
-      }'
+         }'
     volumes:
       - .m2:/root/.m2
     stdin_open: true
