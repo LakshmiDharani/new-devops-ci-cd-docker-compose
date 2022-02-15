@@ -4,7 +4,7 @@ def mvnHome
 
 stage('Prepare') {
 
-git url: 'git@github.com:krishnamurthypradeep/new-devops-ci-cd-final.git', branch: 'master'
+git url: 'git@github.com:LakshmiDharani/new-devops-ci-cd-docker-compose.git', branch: 'master'
 
 mvnHome = tool 'maven'
 
